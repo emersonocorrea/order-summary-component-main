@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="src/scripts/tailwind.js" defer></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="src/assets/img/favicon-32x32.png" type="image/x-icon">
+
+    <title>Order Ssummary</title>
+</head>
+<body class="flex items-center w-screen h-screen p-4 bg-paleBlue font-['RedHat']">
+    <main class="container mx-auto flex justify-center flex-col bg-white rounded-xl max-w-md gap-4 ">
+        <figure>
+            <img src="src/assets/img/illustration-hero.svg" alt="hero" class="rounded-t-xl">
+        </figure>
+        <div class="flex flex-col items-center">
+            <h2 class="font-bold text-2xl">Order Summary</h2>
+            <p class="text-center mx-4 mt-2 text-desaturatedBlue">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        </div>
+        <div class="flex gap-4 bg-backPlan p-2 rounded-xl items-center mx-4 ">
+            <img src="src/assets/img/icon-music.svg" alt="music">
+            <div class="mr-16">
+                <h3 class="font-bold">Annual Plan</h3>
+                <small>$59.99/year</small>
+            </div>
+            <a href="#" class="text-brightBlue font-bold underline">Change</a>
+        </div>
+        <button class="bg-brightBlue text-white p-4 mx-4 rounded-xl font-bold shadow-md shadow-brightBlue hover:bg-desaturatedBlue hover:shadow-desaturatedBlue transition">Proceed to Payment</button>
+        <button class="text-desaturatedBlue font-bold p-2">Cancel Order</button>
+    </main>
+</body>
+</html>
